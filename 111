@@ -1,0 +1,17 @@
+<div class="aui-content aui-content-padded">
+    <div class="aui-list-item">
+        <div class="aui-list-item-inner">
+            <h1>1F 男女服装</h1>
+        <div class="aui-list-item-title">
+            <p>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 男 装 </div>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 女 装 </div>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 男 鞋 </div>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 女 鞋 </div>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 运 动 </div>
+                <div class="aui-btn aui-btn-info"><span class="aui-iconfont aui-icon-edit"></span> 内 衣 </div>
+            </p>
+        </div>
+        </div>
+    </div>
+</div>
