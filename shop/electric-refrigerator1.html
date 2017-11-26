@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="utf-8">
     <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
@@ -18,11 +9,12 @@
     <script src="../script/api.js"></script>
     <script src="../script/aui-slide.js"></script>
     <link rel="stylesheet" href="../css/aui-slide.css">
+    <script src="../script/goback.js"></script>
 </head>
 <body>
 <!--标签栏-->
 <header class="aui-bar aui-bar-nav">
-    <a class="aui-pull-left" href="../choose.html">
+    <a class="aui-pull-left aui-btn" href="javascript:void (0);" onclick="GoBack()">
         <span class="aui-iconfont aui-icon-left"></span>
     </a>
     <div class="aui-title">SIEMENS\西门子BCD-610W(KA92NV02TI)对开门变频冰箱风冷</div>
@@ -48,7 +40,7 @@
     var slide = new auiSlide({
         container:document.getElementById("aui-slide"),
         // "width":300,
-        "height":260,
+        "height":300,
         "speed":300,
         "autoPlay": 3000, //自动播放
         "pageShow":true,

@@ -9,30 +9,28 @@
     <script src="../script/api.js"></script>
     <script src="../script/aui-slide.js"></script>
     <link rel="stylesheet" href="../css/aui-slide.css">
+    <script src="../script/goback.js"></script>
 </head>
 <body>
 <!--标签栏-->
 <header class="aui-bar aui-bar-nav">
-    <a class="aui-pull-left" href="../choose.html">
+    <a class="aui-pull-left aui-btn" href="javascript:void (0);" onclick="GoBack()">
         <span class="aui-iconfont aui-icon-left"></span>
     </a>
-    <div class="aui-title">2017秋冬新款简约纯色长款外套男毛呢大衣</div>
+    <div class="aui-title">Vero Moda2017冬季新款 高领落肩扁袖针织衫</div>
 </header>
 <!--轮播图片-->
 <link rel="stylesheet" type="text/css" href="/css/aui-slide.css" />
 <div id="aui-slide">
     <div class="aui-slide-wrap" >
         <div class="aui-slide-node bg-dark">
-            <img src="../image/clothes/male2-1.jpg" />
+            <img src="../image/clothes/female2-1.png" />
         </div>
         <div class="aui-slide-node bg-dark">
-            <img src="../image/clothes/male2-2.jpg" />
+            <img src="../image/clothes/female2-2.png" />
         </div>
         <div class="aui-slide-node bg-dark">
-            <img src="../image/clothes/male2-3.jpg" />
-        </div>
-        <div class="aui-slide-node bg-dark">
-            <img src="../image/clothes/male2-4.jpg" />
+            <img src="../image/clothes/female2-3.png" />
         </div>
     </div>
     <div class="aui-slide-page-wrap"><!--分页容器--></div>
@@ -42,8 +40,9 @@
     var slide = new auiSlide({
         container:document.getElementById("aui-slide"),
         // "width":300,
-        "height":260,
+        "height":300,
         "speed":300,
+        "autoPlay": 3000,
         "pageShow":true,
         "pageStyle":'dot',
         "loop":true,
@@ -58,7 +57,7 @@
 <!--详情-->
 <div class="aui-content aui-margin-b-15">
     <ul class="aui-list aui-list-in">
-        <li class="aui-list-header"><h2>2017秋冬新款简约纯色长款外套男毛呢大衣</h2></li>
+        <li class="aui-list-header"><h2>Vero Moda2017冬季新款 高领落肩扁袖针织衫</h2></li>
         <li class="aui-list-item">
             <div class="aui-list-item-label-icon">
                 <i class="aui-iconfont aui-icon-star"></i>
@@ -72,7 +71,7 @@
                 <i class="aui-iconfont aui-icon-cart"></i>
             </div>
             <div class="aui-list-item-inner">
-                库存：80
+                库存：649
             </div>
         </li>
     </ul>
