@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<nav class="chou_nav">
+    <div class="conter_con">
+        <ul class="chou_nav_ul" id="chou_nav_ul">
+            <li class="active">项目资料</li>
+            <li>商业模式</li>
+            <li>项目团队</li>
+            <li>路演活动</li>
+            <li>附件资料</li>
+        </ul>
+    </div>
+</nav>
+<script>
+    $(document).ready(function(){
+        var tab = $('.tab_y').val();
+        $(".chou_nav_ul li").click(function(){
+            var index=$(this).index();
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".content").eq(index).css("display","block").siblings().css("display","none");
+        });
+        /*        var n=tab.substring(tab.length-1);
+        if(tab=="tab_"+n){
+        $(".chou_nav_ul li").eq(n).addClass("active").siblings().removeClass("active");
+        $(".content").eq(n).css("display","block").siblings().css("display","none");
+        }*/
+    });
+</script>
+</body>
+</html>
